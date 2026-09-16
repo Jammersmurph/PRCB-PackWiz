@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/update-modrinth.yml"
-hash = "910836487080ff3b2df78e56f3e7b3f217e2d2e6813b7baad57410aedc4e17f5"
-
-[[files]]
-file = ".modrinth-version"
-hash = "9026447c4e36f61b7536b2c0c4d1a1fda29c199ad7ead053d242bee573d1e39c"
-
-[[files]]
-file = ".mrpack-files"
-hash = "ee746f9aca1590be650be7e69068c45ba285c118811650d04ab82f5e7b9296b3"
-
-[[files]]
-file = "README.md"
-hash = "c8052f500c00f88178acb12313aa181c71433462bc7e2c3ee8e87bc39c791f4b"
-
-[[files]]
 file = "config/ars_nouveau-client.toml"
 hash = "ced071866bbd252acbe3595b4288e28c011429878c0e4e6a1490c0f3a4eb3d3d"
 
@@ -1169,10 +1153,6 @@ metafile = true
 file = "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.pw.toml"
 hash = "b7da47567a53e38b928e8598941ac1d377485110f67c6704d77d6ce6fef852cb"
 metafile = true
-
-[[files]]
-file = "scripts/import_mrpack.go"
-hash = "8279d89f806c88fabd71f23eba06d840e543a7c4d853d9e8084ee7acf5abb8ce"
 
 [[files]]
 file = "servers.dat"

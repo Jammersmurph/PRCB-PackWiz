@@ -1,0 +1,7 @@
+.git/
+.github/
+.modrinth-version
+.mrpack-files
+.packwizignore
+README.md
+scripts/
