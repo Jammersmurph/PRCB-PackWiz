@@ -28,20 +28,24 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          project_json=$(curl --fail --silent --show-error \
-            "https://api.modrinth.com/v2/project/CTgJTNaD")
-          latest_id=$(jq -r '.latest_version' <<<"$project_json")
+          user_agent="Jammersmurph/PRCB-PackWiz (github.com/Jammersmurph/PRCB-PackWiz)"
+          versions_json=$(curl --fail --silent --show-error --retry 4 --retry-all-errors \
+            --header "User-Agent: $user_agent" \
+            --get "https://api.modrinth.com/v2/project/CTgJTNaD/version" \
+            --data-urlencode 'loaders=["neoforge"]' \
+            --data-urlencode 'game_versions=["1.21.1"]')
+          latest_id=$(jq -er '.[0].id' <<<"$versions_json")
           current_id=$(cat .modrinth-version 2>/dev/null || true)
           if [[ "$latest_id" == "$current_id" ]]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          version_json=$(curl --fail --silent --show-error \
-            "https://api.modrinth.com/v2/version/$latest_id")
-          download_url=$(jq -r '.files[] | select(.primary) | .url' <<<"$version_json")
-          version_number=$(jq -r '.version_number' <<<"$version_json")
-          curl --fail --location --silent --show-error "$download_url" --output /tmp/project-crowbar.mrpack
+          download_url=$(jq -er '.[0].files[] | select(.primary == true) | .url' <<<"$versions_json")
+          version_number=$(jq -er '.[0].version_number' <<<"$versions_json")
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --header "User-Agent: $user_agent" \
+            "$download_url" --output /tmp/project-crowbar.mrpack
           echo "changed=true" >> "$GITHUB_OUTPUT"
           echo "id=$latest_id" >> "$GITHUB_OUTPUT"
           echo "number=$version_number" >> "$GITHUB_OUTPUT"
