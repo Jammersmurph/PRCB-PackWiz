@@ -1,0 +1,73 @@
+name: Update from Modrinth
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-modrinth
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Check for a new release
+        id: release
+        shell: bash
+        run: |
+          set -euo pipefail
+          project_json=$(curl --fail --silent --show-error \
+            "https://api.modrinth.com/v2/project/CTgJTNaD")
+          latest_id=$(jq -r '.latest_version' <<<"$project_json")
+          current_id=$(cat .modrinth-version 2>/dev/null || true)
+          if [[ "$latest_id" == "$current_id" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          version_json=$(curl --fail --silent --show-error \
+            "https://api.modrinth.com/v2/version/$latest_id")
+          download_url=$(jq -r '.files[] | select(.primary) | .url' <<<"$version_json")
+          version_number=$(jq -r '.version_number' <<<"$version_json")
+          curl --fail --location --silent --show-error "$download_url" --output /tmp/project-crowbar.mrpack
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "id=$latest_id" >> "$GITHUB_OUTPUT"
+          echo "number=$version_number" >> "$GITHUB_OUTPUT"
+
+      - name: Import release into Packwiz
+        if: steps.release.outputs.changed == 'true'
+        env:
+          MODRINTH_VERSION_ID: ${{ steps.release.outputs.id }}
+        run: |
+          set -euo pipefail
+          go run ./scripts/import_mrpack.go /tmp/project-crowbar.mrpack .
+          go install github.com/packwiz/packwiz@latest
+          "$(go env GOPATH)/bin/packwiz" refresh
+          printf '%s\n' "$MODRINTH_VERSION_ID" > .modrinth-version
+
+      - name: Commit update
+        if: steps.release.outputs.changed == 'true'
+        env:
+          MODRINTH_VERSION_NUMBER: ${{ steps.release.outputs.number }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update Project Crowbar to $MODRINTH_VERSION_NUMBER"
+          git push

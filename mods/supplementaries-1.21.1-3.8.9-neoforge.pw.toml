@@ -1,0 +1,12 @@
+name = "Supplementaries"
+filename = "supplementaries-1.21.1-3.8.9-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94d3b64c2e50734ba8dfd0039704634757db00ba"
+url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/ZHJvgW8G/supplementaries-1.21.1-3.8.9-neoforge.jar"
+
+[update.modrinth]
+mod-id = "fFEIiSDQ"
+version = "ZHJvgW8G"

@@ -1,0 +1,12 @@
+name = "Create Mechanical Chicken"
+filename = "create_mechanical_chicken-1.21.1-1.4.2-6.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d85f05f0a4a56cf589fa5ae9113b3eb7b9cd9bc"
+url = "https://cdn.modrinth.com/data/EoG8jJjT/versions/q7FyC3m8/create_mechanical_chicken-1.21.1-1.4.2-6.0.10.jar"
+
+[update.modrinth]
+mod-id = "EoG8jJjT"
+version = "q7FyC3m8"

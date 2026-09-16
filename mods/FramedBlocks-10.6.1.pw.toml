@@ -1,0 +1,12 @@
+name = "FramedBlocks"
+filename = "FramedBlocks-10.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3007be0007d09c0225ca33b647461f342eac0503"
+url = "https://cdn.modrinth.com/data/wbgfS34j/versions/FBXGqSP5/FramedBlocks-10.6.1.jar"
+
+[update.modrinth]
+mod-id = "wbgfS34j"
+version = "FBXGqSP5"

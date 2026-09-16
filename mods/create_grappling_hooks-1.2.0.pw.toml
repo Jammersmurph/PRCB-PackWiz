@@ -1,0 +1,12 @@
+name = "Create Grappling Hooks"
+filename = "create_grappling_hooks-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4fadb1d2f58a416d747eaa6dd9bfc97fa70ba722"
+url = "https://cdn.modrinth.com/data/zxlsvyWp/versions/B0LZVGnh/create_grappling_hooks-1.2.0.jar"
+
+[update.modrinth]
+mod-id = "zxlsvyWp"
+version = "B0LZVGnh"

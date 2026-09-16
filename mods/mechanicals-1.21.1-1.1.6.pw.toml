@@ -1,0 +1,12 @@
+name = "Mechanicals Lib"
+filename = "mechanicals-1.21.1-1.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65818a9a904983c39acfd7b2da3fe784bd35e83b"
+url = "https://cdn.modrinth.com/data/ProvjTA7/versions/GBSlpwLT/mechanicals-1.21.1-1.1.6.jar"
+
+[update.modrinth]
+mod-id = "ProvjTA7"
+version = "GBSlpwLT"

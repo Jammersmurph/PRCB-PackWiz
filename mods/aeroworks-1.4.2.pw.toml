@@ -1,0 +1,12 @@
+name = "Create: Aeroworks"
+filename = "aeroworks-1.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3aad876e7a97236925da6ec61c8f176394e61a99"
+url = "https://cdn.modrinth.com/data/P26k79kP/versions/tQ0dgIjI/aeroworks-1.4.2.jar"
+
+[update.modrinth]
+mod-id = "P26k79kP"
+version = "tQ0dgIjI"

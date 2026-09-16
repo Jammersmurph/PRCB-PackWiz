@@ -1,0 +1,12 @@
+name = "Create: Some Assembly Required"
+filename = "someassemblyrequired-5.2.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e7fc02b85c7c6f128bdebd65b6133734fce7088"
+url = "https://cdn.modrinth.com/data/jZi8ogTA/versions/G8Lz8Txm/someassemblyrequired-5.2.8.jar"
+
+[update.modrinth]
+mod-id = "jZi8ogTA"
+version = "G8Lz8Txm"

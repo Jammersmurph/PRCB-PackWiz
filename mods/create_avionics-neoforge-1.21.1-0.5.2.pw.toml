@@ -1,0 +1,12 @@
+name = "Create: Avionics — ComputerCraft for Aeronautics"
+filename = "create_avionics-neoforge-1.21.1-0.5.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "79b15d3375f65d9a4b323b36435309cf4b4a2457"
+url = "https://cdn.modrinth.com/data/h4nsLvjf/versions/sWhAueMC/create_avionics-neoforge-1.21.1-0.5.2.jar"
+
+[update.modrinth]
+mod-id = "h4nsLvjf"
+version = "sWhAueMC"
