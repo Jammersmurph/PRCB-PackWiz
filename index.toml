@@ -961,6 +961,10 @@ hash = "fdcad3d549c2a123f0724188723edaca095392e74b48f64285c3e50a2180cf29"
 metafile = true
 
 [[files]]
+file = "mods/prcb_updater-1.0.0.jar"
+hash = "f7bc02b0ea5165f3d991710250b8de3a5d19efbf5548039f55dc7b149e2e7419"
+
+[[files]]
 file = "mods/prcbcore-260729.jar"
 hash = "1301f833a24b9d88a262259c35791d418de3c47589355347c80d25e19f4a964c"
 

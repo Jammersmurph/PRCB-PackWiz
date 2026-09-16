@@ -4,4 +4,6 @@
 .mrpack-files
 .packwizignore
 README.md
+research/
 scripts/
+updater/
