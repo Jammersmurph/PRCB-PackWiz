@@ -1,0 +1,12 @@
+name = "Bad Mobs"
+filename = "badmobs-neoforge-1.21.1-21.1.1.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "1af633e54e05726fbdce1b445dac15fbedafdd5b"
+url = "https://cdn.modrinth.com/data/2NEKo1EX/versions/dXIUORLX/badmobs-neoforge-1.21.1-21.1.1.jar"
+
+[update.modrinth]
+mod-id = "2NEKo1EX"
+version = "dXIUORLX"

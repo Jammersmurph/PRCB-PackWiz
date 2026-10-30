@@ -1,0 +1,12 @@
+name = "Fragmentum"
+filename = "fragmentum-5.4.0+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "711f46b591cbee203e68cf023277dae9060725f8"
+url = "https://cdn.modrinth.com/data/49C5QgTK/versions/kCXNhuIV/fragmentum-5.4.0%2B1.21.1-neoforge.jar"
+
+[update.modrinth]
+mod-id = "49C5QgTK"
+version = "kCXNhuIV"

@@ -1,0 +1,12 @@
+name = "Immersive Furniture"
+filename = "immersive_furniture-neoforge-0.3.4+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30e5c05b3e9b7a8bb8d835be4f2323d744766993"
+url = "https://cdn.modrinth.com/data/SvN6UGeF/versions/PQeXT1hV/immersive_furniture-neoforge-0.3.4%2B1.21.1.jar"
+
+[update.modrinth]
+mod-id = "SvN6UGeF"
+version = "PQeXT1hV"

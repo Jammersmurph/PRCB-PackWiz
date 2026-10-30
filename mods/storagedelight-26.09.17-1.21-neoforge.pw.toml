@@ -1,0 +1,12 @@
+name = "Storage Delight"
+filename = "storagedelight-26.09.17-1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1efd4c49d6f285001dae886c69fee72cd97f9945"
+url = "https://cdn.modrinth.com/data/LTTvOp5L/versions/7I2UUB9l/storagedelight-26.09.17-1.21-neoforge.jar"
+
+[update.modrinth]
+mod-id = "LTTvOp5L"
+version = "7I2UUB9l"

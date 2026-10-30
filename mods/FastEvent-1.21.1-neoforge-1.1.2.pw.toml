@@ -1,6 +1,6 @@
 name = "FastEvent"
 filename = "FastEvent-1.21.1-neoforge-1.1.2.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

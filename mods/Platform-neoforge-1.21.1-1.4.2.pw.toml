@@ -1,0 +1,12 @@
+name = "Platform"
+filename = "Platform-neoforge-1.21.1-1.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "38947983b65b08bffdcbbc347949a7bc5c6426e1"
+url = "https://cdn.modrinth.com/data/i6fiqm5y/versions/rh4p4ixM/Platform-neoforge-1.21.1-1.4.2.jar"
+
+[update.modrinth]
+mod-id = "i6fiqm5y"
+version = "rh4p4ixM"

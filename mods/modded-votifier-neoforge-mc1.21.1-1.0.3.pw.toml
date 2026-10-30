@@ -1,0 +1,12 @@
+name = "Modded Votifier"
+filename = "modded-votifier-neoforge-mc1.21.1-1.0.3.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "1a5039d5038edcded271347c04889c2482dfdd02"
+url = "https://cdn.modrinth.com/data/1x8vMRUh/versions/InQ81EBH/modded-votifier-neoforge-mc1.21.1-1.0.3.jar"
+
+[update.modrinth]
+mod-id = "1x8vMRUh"
+version = "InQ81EBH"

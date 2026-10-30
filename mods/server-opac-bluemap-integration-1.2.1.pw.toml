@@ -1,0 +1,12 @@
+name = "OpenPaC BlueMap - Refreshed"
+filename = "server-opac-bluemap-integration-1.2.1.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "48f554d2a93849100222aa45409e426de28e4b42"
+url = "https://cdn.modrinth.com/data/BKD7dkwo/versions/SFP1xZsr/server-opac-bluemap-integration-1.2.1.jar"
+
+[update.modrinth]
+mod-id = "BKD7dkwo"
+version = "SFP1xZsr"

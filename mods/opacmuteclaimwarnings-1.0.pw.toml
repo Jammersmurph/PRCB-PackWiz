@@ -1,0 +1,12 @@
+name = "OPAC - Mute Claim Warnings"
+filename = "opacmuteclaimwarnings-1.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "6cd3b1c454800adc4a54f7ae302c9d2340e16543"
+url = "https://cdn.modrinth.com/data/6ohGiC7q/versions/vN4zM5a4/opacmuteclaimwarnings-1.0.jar"
+
+[update.modrinth]
+mod-id = "6ohGiC7q"
+version = "vN4zM5a4"

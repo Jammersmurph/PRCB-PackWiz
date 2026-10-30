@@ -1,0 +1,12 @@
+name = "Obscure Tooltips"
+filename = "obscure_tooltips-neoforge-1.21.1-4.2.5.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "35469a3b86c85e2e535b559280e3a140d1acdc74"
+url = "https://cdn.modrinth.com/data/5vetjDBY/versions/Yo2oNdw1/obscure_tooltips-neoforge-1.21.1-4.2.5.jar"
+
+[update.modrinth]
+mod-id = "5vetjDBY"
+version = "Yo2oNdw1"

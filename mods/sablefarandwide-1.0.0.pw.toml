@@ -1,0 +1,12 @@
+name = "Sable: Far and Wide (Create Aeronautics)"
+filename = "sablefarandwide-1.0.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "b526fb405ef6098de69e987207e5c11588c8c927"
+url = "https://cdn.modrinth.com/data/YbNLIWOy/versions/NWXrimD0/sablefarandwide-1.0.0.jar"
+
+[update.modrinth]
+mod-id = "YbNLIWOy"
+version = "NWXrimD0"

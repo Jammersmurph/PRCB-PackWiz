@@ -1,6 +1,6 @@
 name = "Emojiful"
 filename = "Emojiful-Neoforge-1.21-5.2.4-all.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

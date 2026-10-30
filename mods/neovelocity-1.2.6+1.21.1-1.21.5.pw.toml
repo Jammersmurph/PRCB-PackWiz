@@ -1,0 +1,12 @@
+name = "NeoVelocity"
+filename = "neovelocity-1.2.6+1.21.1-1.21.5.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "413eb7205c06d23c36df4df4895858584cb9351d"
+url = "https://cdn.modrinth.com/data/RT18TcxA/versions/YGKlK28u/neovelocity-1.2.6%2B1.21.1-1.21.5.jar"
+
+[update.modrinth]
+mod-id = "RT18TcxA"
+version = "YGKlK28u"

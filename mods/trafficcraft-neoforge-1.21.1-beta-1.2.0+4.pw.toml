@@ -1,0 +1,12 @@
+name = "TrafficCraft"
+filename = "trafficcraft-neoforge-1.21.1-beta-1.2.0+4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca030ff65d70aa66ea9e35f3dade9100a776e6c6"
+url = "https://cdn.modrinth.com/data/Y1PXWvWn/versions/ddJimXLT/trafficcraft-neoforge-1.21.1-beta-1.2.0%2B4.jar"
+
+[update.modrinth]
+mod-id = "Y1PXWvWn"
+version = "ddJimXLT"

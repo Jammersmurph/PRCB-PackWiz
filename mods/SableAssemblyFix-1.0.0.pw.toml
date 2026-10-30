@@ -1,0 +1,12 @@
+name = "Sable Assembly Fix"
+filename = "SableAssemblyFix-1.0.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "e00082bf9152d5468ae1f51e93bf3d97af99ca19"
+url = "https://cdn.modrinth.com/data/EGcZ28rZ/versions/wojSeAAv/SableAssemblyFix-1.0.0.jar"
+
+[update.modrinth]
+mod-id = "EGcZ28rZ"
+version = "wojSeAAv"

@@ -1,0 +1,12 @@
+name = "Create Stuff 'N Additions x Sable & Aeronautics Compat"
+filename = "sable_sa_compat-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7c03400abd7b0ff4d56f3c9a7fa19ee22094ab8"
+url = "https://cdn.modrinth.com/data/gsAqDfOu/versions/iGTmXDCM/sable_sa_compat-1.0.4.jar"
+
+[update.modrinth]
+mod-id = "gsAqDfOu"
+version = "iGTmXDCM"

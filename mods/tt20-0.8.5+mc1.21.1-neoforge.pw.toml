@@ -1,0 +1,12 @@
+name = "TT20 (TPS Fixer)"
+filename = "tt20-0.8.5+mc1.21.1-neoforge.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "618970d9bf23bffcabcdeeb1ee5aee312749e661"
+url = "https://cdn.modrinth.com/data/YS3ZignI/versions/nZsrsAsO/tt20-0.8.5%2Bmc1.21.1-neoforge.jar"
+
+[update.modrinth]
+mod-id = "YS3ZignI"
+version = "nZsrsAsO"

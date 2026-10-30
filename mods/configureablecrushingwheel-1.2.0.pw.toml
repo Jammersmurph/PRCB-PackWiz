@@ -1,0 +1,12 @@
+name = "Create: Configureables"
+filename = "configureablecrushingwheel-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c5d1673a51ddb720f59c9cfda2dd0f695378dad"
+url = "https://cdn.modrinth.com/data/Tdxn0nj6/versions/5mNHo3N1/configureablecrushingwheel-1.2.0.jar"
+
+[update.modrinth]
+mod-id = "Tdxn0nj6"
+version = "5mNHo3N1"

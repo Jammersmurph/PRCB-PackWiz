@@ -1,0 +1,12 @@
+name = "Resettable Trial Vaults & Spawners"
+filename = "resettable_trial_chambers-1.1.0-neoforge-1.21.0(1).jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "27d15bf1f5cf8a51f9e8b090ddd3e3b44b9c7693"
+url = "https://cdn.modrinth.com/data/bUTHehjH/versions/rh8FCYEF/resettable_trial_chambers-1.1.0-neoforge-1.21.0%281%29.jar"
+
+[update.modrinth]
+mod-id = "bUTHehjH"
+version = "rh8FCYEF"

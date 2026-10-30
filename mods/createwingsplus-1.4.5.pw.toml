@@ -1,0 +1,12 @@
+name = "Create: Wings Plus"
+filename = "createwingsplus-1.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da8d82da7651a49dda7faef7527e5bfdf0421ad7"
+url = "https://cdn.modrinth.com/data/Nrxm0WXj/versions/NmJER9Ru/createwingsplus-1.4.5.jar"
+
+[update.modrinth]
+mod-id = "Nrxm0WXj"
+version = "NmJER9Ru"
