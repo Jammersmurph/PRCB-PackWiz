@@ -18,11 +18,11 @@ hash = "931f683435867307f6784c3c0d1f39f548c540010341b19471254a29f31aa653"
 
 [[files]]
 file = "config/dsurround/dsurround.json"
-hash = "d46ae62f4e77deb19e5b1d79e739ee1c2495f836496c71ea1627b37bd922d179"
+hash = "ed92c901aefb7c82709a1486cf7e39f2683c60178beb62cc71b62ce90121bb63"
 
 [[files]]
 file = "config/dsurround/soundconfig.json"
-hash = "93c93dd134f2e17faf96e9d9dc4680f06df15e5702f6762ba3c18e943c41f255"
+hash = "fb67b3e2dbc0269fbd84263fc388b89b42d92b1ffd88b41ffadbd2dacd485421"
 
 [[files]]
 file = "config/fancymenu/assets/drift.ogg"
@@ -1173,6 +1173,11 @@ metafile = true
 [[files]]
 file = "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.pw.toml"
 hash = "ed3317ffb61285345322fe1d13bb97171fcb2bec8b958213136512ecd105c732"
+metafile = true
+
+[[files]]
+file = "mods/pipeorgans-0.9.2.1+1.21.1.pw.toml"
+hash = "a36a7bece37c2079902739abfa5505e68d242b965e4269be2c5a7fb3423a511e"
 metafile = true
 
 [[files]]
