@@ -1,0 +1,12 @@
+name = "Architectury API"
+filename = "architectury-13.0.12-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "646dace27624ac08ad8d229fe15f6601a8b7fbb2"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/xGfBrBzj/architectury-13.0.12-neoforge.jar"
+
+[update.modrinth]
+mod-id = "lhGA9TYQ"
+version = "xGfBrBzj"

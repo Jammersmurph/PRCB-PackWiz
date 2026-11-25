@@ -1,0 +1,12 @@
+name = "Supplementaries"
+filename = "supplementaries-1.21.1-4.1.4-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "61932662ec2d95634a7685543a58b2cc99125e11"
+url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/JuYIXjpy/supplementaries-1.21.1-4.1.4-neoforge.jar"
+
+[update.modrinth]
+mod-id = "fFEIiSDQ"
+version = "JuYIXjpy"

@@ -1,0 +1,12 @@
+name = "Create: Wizardry"
+filename = "create_wizardry-1.21.1-0.5.1-pre1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5aa96dd49136ea855ccdf441b606cc26fd88b927"
+url = "https://cdn.modrinth.com/data/OeGdeWEj/versions/K1xkNKKf/create_wizardry-1.21.1-0.5.1-pre1.jar"
+
+[update.modrinth]
+mod-id = "OeGdeWEj"
+version = "K1xkNKKf"

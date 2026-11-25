@@ -1,0 +1,12 @@
+name = "Advanced Peripherals"
+filename = "AdvancedPeripherals-1.21.1-0.8.2a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94bf731db54b6ca717b1269d2e6a3ff9c17713df"
+url = "https://cdn.modrinth.com/data/SOw6jD6x/versions/fxjzpAbL/AdvancedPeripherals-1.21.1-0.8.2a.jar"
+
+[update.modrinth]
+mod-id = "SOw6jD6x"
+version = "fxjzpAbL"
